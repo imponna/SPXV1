@@ -11350,27 +11350,3 @@ spawn(function()
         end)
     end
 end)
-
-spawn(function CR ()
- require(game:GetService("ReplicatedStorage").Notification).new("<Discord LocalPlayer#6666>"):Display();
- wait()
- setthreadcontext(8)
-end
-
-CR()
-local CoreGui = game:GetService("StarterGui")
-        CoreGui:SetCore("SendNotification", {
-            Title = "แปลไทยโดย",
-            Text = "Discord LocalPlayer#6666",
-            Duration = math.huge,
-            Callback = AllowRunServiceBind,
-        })
-    end
-
-    local CoreGui = game:GetService("StarterGui")
-    CoreGui:SetCore("SendNotification", {
-        Title = "แปลไทยโดย",
-        Text = "Discord LocalPlayer#6666",
-        Duration = math.huge,
-        Callback = AllowRunServiceBind,
-    })
