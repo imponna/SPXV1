@@ -4227,7 +4227,7 @@ local Dungeon = Library:Tab("ลงดัน","rbxassetid://11446957539")
 local DevilFruit = Library:Tab("ผลปีศาจ+มอง","rbxassetid://11446965348")
 local Shop = Library:Tab("ร้าน","rbxassetid://6031265976")
 local Misc = Library:Tab("อื่น ๆ","rbxassetid://11447063791")
-local Op = Library:Tab("สเตตัส", "rbxassetid://7040410130")
+local Op = Library:Tab("เช็คของต่าง ๆ", "rbxassetid://7040410130")
 --------------------------------------------------------------------
 
 Setting:Label("Join My Discord For More Info!")
